@@ -50,11 +50,25 @@ header {
     background-color: #cecdcd;
     color: black;
     font-style: italic;
-    text-align: center;
     padding: 5px;
-    top: 600px;
-    margin-left: 50%;
-    margin-right: 20px;
+    position: absolute;
+    top: 60px;
+    margin-left: 5%;
+    height: 150px;
+    width: 40%;
+    border-radius: 1%;
+    border-color: hsla(218, 63%, 32%, 0.87);
+    border: 3px solid;
+}
+.coursework-tile {
+    background-color: #cecdcd;
+    color: black;
+    font-style: italic;
+    padding: 5px;
+    position: absolute;
+    top: 60px;
+    margin-left: 55%;
+    height: 150px;
     width: 40%;
     border-radius: 1%;
     border-color: hsla(218, 63%, 32%, 0.87);
@@ -101,7 +115,6 @@ header {
     background-color: #eee7da;
     color: black;
     overflow: hidden;
-    /* white-space: normal; */
     width: 0;
     height: 100%;
     transition: .5s ease;
@@ -118,7 +131,6 @@ header {
 .text {
     white-space: nowrap;
     text-align: center;
-    /* overflow-wrap: break-word; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -126,7 +138,7 @@ header {
     -ms-transform: translate(-50%, -50%);
 }
 
-.work-experience-title {
+.research-experience-title {
     position: absolute;
     top: 1200px;
     left: 0;
@@ -138,7 +150,7 @@ header {
     color: #f2f2f2;
 }
 
-.work-experience-content {
+.research-experience-content {
     position: absolute;
     top: 1300px;
     left: 0;
@@ -150,5 +162,46 @@ header {
 .jobs {
     list-style-type: none;
     text-align: left;
+}
+
+.presentations-title {
+    position: absolute;
+    top: 1750px;
+    left: 0;
+    right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #3A4458;
+    color: #f2f2f2;
+}
+
+.presentations-content {
+    position: absolute;
+    top: 1850px;
+    left: 60px;
+    right: 60px;
+    text-align: left;
+}
+
+.work-experience-title {
+    position: absolute;
+    top: 2100px;
+    left: 0;
+    right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #3A4458;
+    color: #f2f2f2;
+}
+
+.work-experience-content {
+    position: absolute;
+    top: 2200px;
+    left: 0px;
+    right: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
