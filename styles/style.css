@@ -1,0 +1,154 @@
+html {
+    background-color: #f2f2f2;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+header {
+    background-color: #3A4458;
+    color: #f2f2f2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.about-me {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    right: 20px;
+}
+
+.professional-pic {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+.professional-pic img {
+    height: 400px;
+    max-height: 400px;
+    width: 300px;
+    max-width: 300px;
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.education {
+    position: absolute;
+    top: 550px;
+    left: 0;
+    right: 0;
+    background-color: #3A4458;
+    color: #f2f2f2;
+    height: 200px;
+}
+
+.degree-tile {
+    background-color: #cecdcd;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+    top: 600px;
+    margin-left: 50%;
+    margin-right: 20px;
+    width: 40%;
+    border-radius: 1%;
+    border-color: hsla(218, 63%, 32%, 0.87);
+    border: 3px solid;
+}
+
+.projects {
+    position: absolute;
+    top: 820px;
+    left: 0;
+    right: 0;
+    padding-bottom: 20px;
+}
+
+.project-1 {
+    position: absolute;
+    top: 80px;
+    height: 250px;
+    width: 300px;
+    margin-left: 13%;
+    background-color: #77694d;
+    color: #f2f2f2;
+    border-radius: 1%;
+}
+
+.project-2 {
+    position: absolute;
+    top: 80px;
+    height: 250px;
+    width: 300px;
+    margin-left: 58%;
+    background-color: #77694d;
+    color: #f2f2f2;
+    border-radius: 1%;
+    
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #eee7da;
+    color: black;
+    overflow: hidden;
+    /* white-space: normal; */
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.project-1:hover .overlay {
+    width: 100%;
+}
+
+.project-2:hover .overlay {
+    width: 100%;
+}
+
+.text {
+    white-space: nowrap;
+    text-align: center;
+    /* overflow-wrap: break-word; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.work-experience-title {
+    position: absolute;
+    top: 1200px;
+    left: 0;
+    right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #3A4458;
+    color: #f2f2f2;
+}
+
+.work-experience-content {
+    position: absolute;
+    top: 1300px;
+    left: 0;
+    right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.jobs {
+    list-style-type: none;
+    text-align: left;
+}
+
